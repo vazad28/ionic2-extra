@@ -1,5 +1,5 @@
 {
-  "name": "@ionic2-extra-vik/calendar",
+  "name": "@ionic2-extra/calendar",
   "version": "0.0.26",
   "description": "Calendar widget built on Ionic 2",
   "main": "./calendar.umd.js",
