@@ -11,7 +11,7 @@
     </div>
 </div>
 <div class="ion-calendar-row" *ngFor="let row of calendarRows">
-    <button ion-button
+    <button ion-button clear
             [color]="entry.selected == 'none' ? 'light' : 'danger'"
             [disabled]="disabled || entry.disabled"
             [class.ion-calendar-partial-selection]="entry.selected == 'partial'"
